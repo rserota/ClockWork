@@ -59,8 +59,12 @@ public class TimeKeeper : MonoBehaviour {
 //			print ("beat in bar" + beatInBar);
 			print ("beat in loop" + beatInLoop);
 //			print ( ((beatInLoop-1) / beatsPerBar) + 1);
-			print(noteArray[beatInLoop]);
-//			print ("=-=-=-=-=-=-=");
+			print(noteArray[beatInLoop] == null);
+			if (noteArray [beatInLoop] != null) {
+				audioSource.Play ();
+			}
+			print ("=-=-=-=-=-=-=");
+//			noteArray [beatInLoop].play ();
 		}
 
 
