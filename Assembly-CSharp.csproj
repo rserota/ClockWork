@@ -47,7 +47,6 @@
   <ItemGroup>
      <Compile Include="Assets\Note.cs" />
      <Compile Include="Assets\TimeKeeper.cs" />
-     <Compile Include="Assets\doStuff.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
